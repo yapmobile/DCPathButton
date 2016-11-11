@@ -192,4 +192,8 @@ typedef NS_ENUM(NSUInteger, kDCPathButtonBloomDirection) {
  */
 - (void)addPathItems:(NSArray *)pathItemButtons;
 
+- (BOOL)isBloom;
+
+- (void)centerButtonTapped;
+
 @end
